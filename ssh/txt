@@ -1,0 +1,58 @@
+ gcloud init
+ sudo snap install google-cloud-cli
+  sudo apt-get update
+ sudo apt-get install apt-transport-https ca-certificates gnupg curl
+  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+ echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+  sudo apt-get update && sudo apt-get install google-cloud-cli
+ google-cloud-cli
+  gcloud init
+ gcloud compute instances list
+ gcloud init
+ google compute instances list
+ gcloud compute instances list
+  gcloud compute instance-ssh-test --tunnel-through-iap --zone="us-central1-a"
+ gcloud compute ssh instance-ssh-test --tunnel-through-iap --zone="us-central1-a"
+ gcloud projects get-iam-policy YOUR_PROJECT_ID
+  gcloud projects get-iam-policy ssh-project-424404
+  gcloud compute ssh instance-ssh-test --tunnel-through-iap --zone="us-central1-a"
+  gcloud compute instances list
+  gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+ ls -la
+  ls .ssh
+  ls .ssh/google_compute_known_hosts 
+  ls -la .ssh
+  gcloud projects get-iam-policy ssh-project-424404
+  gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+ gcloud projects get-iam-policy ssh-project-424404
+  gcloud compute instances list
+ gcloud projects get-iam-policy ssh-project-424404
+  gcloud compute instances list
+  gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+ gcloud compute instances list
+  gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+  gcloud compute instances list
+ gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+  gcloud compute instances list
+  gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+ gcloud projects get-iam-policy ssh-project-424404
+ gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+  gcloud projects get-iam-policy ssh-project-424404
+  gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+ gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a" --impersonate-service-account=ash-960@ssh-project-424404.iam.gserviceaccount.com
+ gcloud compute ssh sis0 --tunnel-through-iap --zone="us-central1-a"
+  gcloud projects get-iam-policy ssh-project-424404
+  gcloud compute instances list
+  gcloud compute ssh test2 --tunnel-through-iap --zone="us-central1-a" --tunnel-through-iap --impersonate-service-account=276430794245-compute@developer.gserviceaccount.com
+
+  gcloud auth login
+  gcloud config set project ssh-project-424404
+ gcloud config set compute/us-central1-a
+ gcloud config set compute/zone us-central1-a
+  gcloud compute ssh yy
+  gcloud compute ssh yy --project=ssh-project-424404 --zone=us-central1-a
+ gcloud compute ssh yy --project=ssh-project-424404 --zone=us-central1-a --tunel-through-iap
+ gcloud compute ssh yy --project=ssh-project-424404 --zone=us-central1-a --tunnel-through-iap
+ $(gcloud info --format="value(basic.python_location)") -m pip install numpy
+  gcloud compute ssh yy --project=ssh-project-424404 --zone=us-central1-a --tunnel-through-iap
+
